@@ -1,0 +1,33 @@
+@import "../libs/bootstrap/bootstrap-grid.min.css";
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+  //max-width: 1110px;
+  //width: 100%;
+  margin: 0 auto;
+
+}
+$Roboto: Roboto, sans-serif;
+
+@mixin text($ff, $fs, $clr){
+  font-family: $ff;
+  font-size: $fs;
+  color: $clr;
+}
+
+@import "header";
+@import "home";
+@import "media";
+@import "rooms";
+@import "brands";
+@import "swiper";
+@import "adv";
+@import "stars";

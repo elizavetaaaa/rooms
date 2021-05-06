@@ -1,0 +1,97 @@
+.brands{
+  padding: 120px 50px 120px;
+  &__title{
+    @include text($Roboto, 48px, #1A1A1A);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  &__subtitle{
+    @include text($Roboto, 24px, #4A4A4A);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 125px;
+  }
+
+  &__brand {
+    display: flex;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 49px;
+  }
+  &__brand-0 {
+    &:first-child {
+      background-image: url("../images/brands/brand-1.svg");
+    }
+
+    &:nth-child(2) {
+      background-image: url("../images/brands/brand-2.svg");
+    }
+
+    &:nth-child(3) {
+      background-image: url("../images/brands/brand-3.svg");
+    }
+
+    &:nth-child(4) {
+      background-image: url("../images/brands/brand-4.svg");
+    }
+
+    &:nth-child(5) {
+      background-image: url("../images/brands/brand-5.svg");
+    }
+
+    &:nth-child(6) {
+      background-image: url("../images/brands/brand-6.svg");
+    }
+  }
+  &__brand-1 {
+    &:first-child {
+      background-image: url("../images/brands/brand-7.svg");
+    }
+
+    &:nth-child(2) {
+      background-image: url("../images/brands/brand-8.svg");
+    }
+
+    &:nth-child(3) {
+      background-image: url("../images/brands/brand-9.svg");
+    }
+
+    &:nth-child(4) {
+      background-image: url("../images/brands/brand-10.svg");
+    }
+
+    &:nth-child(5) {
+      background-image: url("../images/brands/brand-11.svg");
+    }
+    &:nth-child(6) {
+      background-image: url("../images/brands/brand-12.svg");
+    }
+  }
+  &__brand-2{
+
+  &:first-child{
+      background-image: url("../images/brands/brand-13.svg");
+    }
+    &:nth-child(2){
+      background-image: url("../images/brands/brand-14.svg");
+    }
+    &:nth-child(3){
+      background-image: url("../images/brands/brand-15.svg");
+    }
+    &:nth-child(4){
+      background-image: url("../images/brands/brand-16.svg");
+    }
+    &:nth-child(5){
+      background-image: url("../images/brands/brand-17.svg");
+    }
+    &:nth-child(6){
+      background-image: url("../images/brands/brand-18.svg");
+    }
+  }
+}

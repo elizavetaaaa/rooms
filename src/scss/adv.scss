@@ -1,0 +1,51 @@
+.adv{
+  padding: 83px 175px;
+  &__title{
+    @include text($Roboto, 48px,  #1A1A1A);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 56px;
+    margin-bottom: 24px;
+  }
+  &__subtitle{
+    @include text($Roboto, 14px,  #46856E);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+  }
+  &__adv-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 59px;
+  }
+  &__adv-info-text{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+  &__adv-info-title{
+    @include text($Roboto, 24px,  #1A1A1A);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 18px;
+  }
+  &__adv-info-subtitle{
+    @include text($Roboto, 16px, #AAAAAA);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+
+
+  }
+}

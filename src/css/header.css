@@ -1,0 +1,15 @@
+.header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.header__header-top {
+  height: 40px;
+}
+.header__navbar-top {
+  padding: 10px 0 13px;
+  display: flex;
+  flex-direction: row;
+}

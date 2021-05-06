@@ -1,0 +1,20 @@
+.rooms{
+  padding: 0 48px;
+  &__info{
+    display: flex;
+    flex-direction: column;
+    &:first-child{
+      margin-bottom: 32px;
+    }
+  }
+  &__img{
+    margin-bottom: 9px;
+  }
+  &__room-name{
+    @include text($Roboto, 16px, #1A1A1A );
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+  }
+
+}

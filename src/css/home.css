@@ -1,0 +1,8 @@
+.home {
+  padding: 50px 0 80px;
+}
+.home__bg-home {
+  background-image: url("../images/home/home.svg");
+  width: 1327px;
+  height: 746px;
+}

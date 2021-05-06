@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__header-top{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+  &__navbar-top{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+  }
+  &__navbar-item-top{
+    margin-left: 25px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+
+
+  }
+  &__navbar-item-top > a{
+    text-decoration: none;
+    color: #AAAAAA;
+  }
+  &__navbar-item-top:first-child{
+    margin-left: 0;
+  }
+
+
+
+  &__select{
+    border: none;
+    outline: none;
+    background-color: #F4F4F4;
+    color: #AAAAAA;
+  }
+
+
+  &__header-below{
+    height: 100px;
+
+  }
+  &__navbar-below{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  &__navbar-below-menu-1{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+
+  }
+
+  &__navbar-below-logo{
+    height: 50px;
+    width: 50px;
+  }
+
+  &__navbar-below-item {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 100px;
+
+  }
+  &__navbar-below-item:first-child{
+    margin-left: 0;
+  }
+  &__navbar-below-item > a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  &__navbar-below-menu-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  &__navbar-below-menu-2 > li:first-child{
+    margin-left: 0;
+  }
+
+  &__navbar-below-menu-2 > li:nth-child(2){
+    margin-left: 10px;
+  }
+  &__navbar-below-menu-2 > li:nth-child(3){
+    margin-left: 26px;
+  }
+
+}
+
+.header-1{
+  background: #F4F4F4;
+
+}
+
+.header-2{
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .5);
+
+}
+
+.logo-burger{
+  display: none;
+}
+

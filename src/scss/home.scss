@@ -1,0 +1,41 @@
+.home{
+  padding: 50px 0 80px;
+  &__bg-picture{
+    background-image: url("../images/home/home.svg");
+    width: 100%;
+    height: 746px;
+  }
+  &__title{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    /* or 121% */
+    color: #1A1A1A;
+    margin-top: 82px;
+  }
+  &__subtitle{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    color: #AAAAAA;
+    margin-top: 93px;
+  }
+}
+.col-lg-6{
+  &:first-child{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.col-6{
+  &:nth-child(2){
+
+  }
+}
