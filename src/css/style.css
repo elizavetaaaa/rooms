@@ -1335,7 +1335,7 @@
 
   .go-top {
     position: fixed;
-    right: -15%;
+    right: -10%;
   }
 }
 @media (max-width: 515px) {
@@ -1350,5 +1350,10 @@
 
   .home__bg-picture-div {
     height: 200px;
+  }
+
+  .go-top {
+    position: fixed;
+    right: -15%;
   }
 }
