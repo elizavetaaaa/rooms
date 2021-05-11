@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9414a842-8fad-4fa3-8888-8dd75164d795" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/libs/wowjs/Internship.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/wowjs/Internship_Diary (2).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/get-room.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-hover-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ololo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/adv/passage-of-time.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/footer/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/footer/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/swiper/swiper-bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/swiper/swiper-bundle.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/adv.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/adv.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/brands.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/ololo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/ololo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/overlay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/rooms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/rooms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/swiper2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/work.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +76,7 @@
       <workItem from="1620571838056" duration="1683000" />
       <workItem from="1620576650227" duration="5287000" />
       <workItem from="1620622261785" duration="16258000" />
-      <workItem from="1620713373600" duration="8020000" />
+      <workItem from="1620713373600" duration="9340000" />
     </task>
     <servers />
   </component>
