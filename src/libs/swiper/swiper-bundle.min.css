@@ -6,7 +6,7 @@
 }
 
 :root {
-    --swiper-theme-color: #fff;
+    --swiper-theme-color: #2b8184;
 }
 
 .swiper-container {
@@ -152,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+    color: #fff
 }
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
@@ -254,8 +254,8 @@
 }
 
 .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
+    width: 15px;
+    height: 15px;
     display: inline-block;
     border-radius: 50%;
     background: #000;

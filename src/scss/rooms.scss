@@ -1,0 +1,66 @@
+.rooms {
+  padding: 0 48px;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+
+    &:first-child {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+
+  }
+
+  &__room-name {
+    //@include text($Roboto, 16px, #1A1A1A );
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+
+  }
+  &__img-overlay-div{
+    width: 100%;
+    position: relative;
+    margin-bottom: 9px;
+
+  }
+
+  &__overlay {
+    @include text($Roboto, 12px, #fff);
+    position: absolute;
+    bottom: 5px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
+    transition: 2s ease;
+    opacity:0;
+    padding: 20px;
+    text-align: center;
+  }
+  &__overlay-title{
+    @include text($Roboto, 24px, #fff);
+    margin-bottom: 10px;
+  }
+  &__overlay-subtitle{
+    @include text($Roboto, 16px, #fff);
+    margin-bottom: 10px;
+  }
+
+
+}
+
+
+
+
+.rooms__img-overlay-div:hover .rooms__overlay {
+  opacity: 1;
+  //-webkit-transform: scale(1);
+  //-ms-transform: scale(1);
+  //transform: scale(1);
+}

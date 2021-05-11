@@ -1,4 +1,11 @@
 .footer {
   background-color: #2B2B2B;
   padding: 97px 0 51px;
+  height: 620px;
+}
+.footer__logo-div {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
