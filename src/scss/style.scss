@@ -15,30 +15,7 @@
   margin: 0 auto;
 
 }
-.go-top{
-  font-family: Roboto,sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 11px;
-  color: white;
-  text-transform: uppercase;
-  display: none;
-  transform: rotate(-90deg);
-  width: 180px;
-  height: 30px;
-  background-color: #2B2B2B;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 80px;
-  right: -2%;
-  border-radius: 5%;
-  &:hover{
-    background-color: #afa8ad;
-  }
 
-}
 $Roboto: Roboto, sans-serif;
 
 @mixin text($ff, $fs, $clr){
@@ -59,6 +36,7 @@ $Roboto: Roboto, sans-serif;
 @import "work";
 @import "get-room";
 @import "footer";
+@import "go-top";
 @import "swiper2";
 @import "overlay";
 
