@@ -1,0 +1,11 @@
+.get-room {
+  padding: 100px 0;
+}
+.get-room__bg {
+  background: #F2F2F2;
+  border-radius: 2px;
+  padding: 63px 0 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
