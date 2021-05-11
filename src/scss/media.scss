@@ -404,6 +404,19 @@
   }
 
 }
+@media (max-width: 515px) {
+  .home__title{
+      margin-top: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .home__title{
+      margin-top: 0;
+  }
+  .home__bg-picture-div{
+    height: 200px;
+  }
+}
 
 
 
