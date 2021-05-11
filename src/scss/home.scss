@@ -1,9 +1,13 @@
 .home{
   padding: 50px 0 80px;
-  &__bg-picture{
-    background-image: url("../images/home/home.svg");
+  &__bg-picture-div{
     width: 100%;
     height: 746px;
+  }
+  &__bg-picture{
+    width: 100%;
+    object-fit: contain;
+
   }
   &__title{
     font-family: Roboto, sans-serif;
@@ -34,8 +38,7 @@
 
 }
 
-.col-6{
-  &:nth-child(2){
 
-  }
+.animate__animated.animate__bounceInLeft{
+  --animate-duration: 7s;
 }

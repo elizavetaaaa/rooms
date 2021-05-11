@@ -1,0 +1,61 @@
+.work {
+  padding: 100px 0;
+
+  &__text-info {
+    padding: 0 211px 135px;
+  }
+
+  &__title-1 {
+    @include text($Roboto, 42px, #AAAAAA);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 52px;
+    margin-bottom: 25px;
+
+  }
+
+  &__title-2 {
+    @include text($Roboto, 42px, #000000);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 52px;
+  }
+  &__row{
+    margin-bottom: 64px;
+  }
+
+  &__col-photo {
+    width: 670px;
+    height: 670px;
+    object-fit: contain;
+
+  }
+
+  &__col-photo-1{
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  &__work-done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  &__col-title {
+    @include text($Roboto, 32px, #1A1A1A);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    margin-bottom: 27px;
+  }
+  &__col-subtitle {
+    @include text($Roboto, 16px, #AAAAAA);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+
+  }
+}

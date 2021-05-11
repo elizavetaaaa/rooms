@@ -1,0 +1,154 @@
+.footer{
+  background-color: #2B2B2B;
+  padding: 97px 0 51px;
+  height: 620px;
+  @include text($Roboto, 14px, #fff);
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  &__logo-div{
+    display: flex;
+    justify-content: center;
+  }
+  &__col-2-text{
+    margin-bottom: 4px;
+    &:first-child{
+      margin-bottom: 17px;
+    }
+    &:nth-child(8){
+      margin-bottom: 45px;
+    }
+    &:nth-child(9){
+      margin-bottom: 45px;
+    }
+  }
+  &__col-2-text{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+  }
+  &__col-3-text{
+    margin-bottom: 4px;
+    &:first-child{
+      margin-bottom: 17px;
+    }
+    &:nth-child(9){
+      margin-bottom: 20px;
+    }
+    &:nth-child(10){
+      margin-bottom: 20px;
+    }
+}
+
+  &__media{
+    margin-top: 17px;
+    margin-left: 13px;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    &:first-child{
+      margin-left: 0;
+      background-image: url("../images/footer/fc.svg");
+    }
+    &:nth-child(2){
+      background-image: url("../images/footer/insta.svg");
+    }
+    &:nth-child(3){
+      background-image: url("../images/footer/in.svg");
+    }
+    &:nth-child(4){
+      background-image: url("../images/footer/pint.svg");
+
+    }
+  }
+  &__col-5-text{
+    &:first-child{
+      margin-bottom: 17px;
+    }
+    &:nth-child(2){
+      margin-bottom: 30px;
+    }
+  }
+  &__label{
+    height: 54px;
+    width: 327px;
+    box-sizing: border-box;
+
+  }
+  &__input{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: #2B2B2B;
+    color: white;
+    padding-left: 10px;
+    border-radius: 3px;
+    height: 54px;
+    width: 327px;
+    margin-bottom: 14px;
+  
+  }
+  &__select{
+    @include text($Roboto, 14px,rgba(255, 255, 255, 0.5));
+    margin-left: 220px;
+    border: none;
+    outline: none;
+    background-color: #2B2B2B;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    margin-bottom: 61px;
+  }
+  &__label-checkbox{
+    @include text($Roboto, 11px,rgba(255, 255, 255, 0.5));
+    font-style: normal;
+    font-weight: normal;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-bottom: 58px;
+  }
+  &__checkbox{
+    visibility: hidden;/* <-- Hide the default checkbox. The rest is to hide and allow tabbing, which display:none prevents */
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 100px;
+    overflow: hidden;
+
+
+  }
+  &__span{
+    width: 26px;
+    height: 26px;
+    background: #2B2B2B;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    left: -30px;
+
+  }
+  &__label-text-span{
+    margin-left: 20px;
+  }
+  [type=checkbox]:checked + span {/* <-- Style its checked state */
+    background-image: url("../images/footer/check.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &__btn{
+    @include text($Roboto, 14px,#fff);
+    margin-top: 58px;
+    text-transform: uppercase;
+    float: right;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+  }
+}

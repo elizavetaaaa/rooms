@@ -7,23 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta description="olololo">
     <title>month2</title>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
 
     <link rel="stylesheet" href="src/libs/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/libs/wowjs/animate.min.css">
 
 </head>
 <body>
 
-<header class="header header-1">
+<header class="header header-1 " id="header">
     <div class="container">
-        <div class="header__header-top">
+        <div class="header__header-top wow slideInLeft" data-wow-duration="2s">
             <nav class="header__navbar-top">
                 <ul class="header__navbar-top">
                     <li class="header__navbar-item-top">
                         <a class="nav-link" href="#">Contact Sales</a>
                     </li>
                     <li class="header__navbar-item-top">
-                        <a class="nav-link" href="#">TEL 646-791-3726</a>
+                        <a class="nav-link" href="tel:+996544332">TEL 646-791-3726</a>
                     </li>
                     <li class="header__navbar-item-top">
                         <form class="header__form">
@@ -44,26 +46,27 @@
 
 <header class="header header-2">
     <div class="container">
-        <div class="header__header-below">
+        <div class="header__header-below ">
 
-            <div class="header__navbar-below-logo logo-burger">
-                <img class="header__img" src="src/images/header/Frame.svg" alt="logo">
+        <div class="header__navbar-below-logo logo-burger ">
+                <img class="header__img " src="src/images/header/Frame.svg" alt="logo">
             </div>
 
             <nav class="header__navbar-below">
                 <div class="header__navbar-below-logo">
-                    <img class="header__img" src="src/images/header/Frame.svg" alt="logo">
+                    <img class="header__img logo" src="src/images/header/Frame.svg" alt="logo">
                 </div>
                 <ul class="header__navbar-below-menu-1">
-                    <li class="header__navbar-below-item"><a href="#video">OVERVIEW</a></li>
-                    <li class="header__navbar-below-item"><a href="#features">FEATURES</a></li>
-                    <li class="header__navbar-below-item"><a href="#technology">TECHNOLOGY</a></li>
+                    <li class="header__navbar-below-item"><a href="#">OVERVIEW</a></li>
+                    <li class="header__navbar-below-item"><a href="#">FEATURES</a></li>
+                    <li class="header__navbar-below-item"><a href="#">TECHNOLOGY</a></li>
                 </ul>
                 <ul class="header__navbar-below-menu-2">
                     <li class="header__navbar-below-item">
                         <img src="src/images/header/map.svg" alt="map" height="24px" width="24px">
+                        <a href="">Showrooms</a>
                     </li>
-                    <li class="header__navbar-below-item"><a href="">Showrooms</a></li>
+<!--                    <li class="header__navbar-below-item"></li>-->
                     <li class="header__navbar-below-item"><a href=""><img src="src/images/header/basket.svg" alt="basket" height="24px" width="24px"></a></li>
                 </ul>
             </nav>
@@ -78,7 +81,10 @@
 <main>
     <section class="home" id="home">
         <div class="container">
-            <div class="col-12 col-lg-12 col-md-12 home__bg-picture"></div>
+            <div class="col-12 col-lg-12 col-md-12 home__bg-picture-div wow pulse"  data-wow-duration="2s">
+                <img src="src/images/home/home.svg" alt="main-img" class="home__bg-picture" >
+            </div>
+
             <div class="row">
                 <div class="col-12	col-sm-12 col-md-6 col-lg-6">
                     <h3 class="home__title">Design that <br> inspires a better <br> way to work.</h3>
@@ -93,23 +99,47 @@
     <section class="rooms" id="rooms">
         <div class="container">
             <div class="row">
-                <div class="rooms__info col-12 col-lg-6 col-md-6">
-                    <img src="src/images/rooms/room-1.svg" alt="room" class="rooms__img">
+                <div class="rooms__info col-12 col-lg-6 col-md-6 wow slideInLeft" data-wow-duration="1s">
+                    <div class="rooms__img-overlay-div">
+                        <img src="src/images/rooms/room-1.svg" alt="room" class="rooms__img">
+                        <div class="rooms__overlay">
+                            <h3 class="rooms__overlay-title">Phone Booth</h3>
+                            <p class="rooms__overlay-subtitle">Lorem ipsum dolor si consectetur adipisicing elit. At, quisquam.</p>
+                        </div>
+                    </div>
                     <p class="rooms__room-name">Phone Booth</p>
                 </div>
-                <div class="rooms__info col-12 col-lg-6 col-md-6">
-                    <img src="src/images/rooms/room-2.svg" alt="room" class="rooms__img">
+                <div class="rooms__info col-12 col-lg-6 col-md-6 wow slideInRight" data-wow-duration="1s">
+                    <div class="rooms__img-overlay-div">
+                        <img src="src/images/rooms/room-2.svg" alt="room" class="rooms__img">
+                        <div class="rooms__overlay">
+                            <h3 class="rooms__overlay-title">Focus Room</h3>
+                            <p class="rooms__overlay-subtitle">Lorem ipsum dolor si consectetur adipisicing elit. At, quisquam.</p>
+                        </div>
+                    </div>
                     <p class="rooms__room-name">Focus Room</p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="rooms__info col-12 col-lg-6 col-md-6">
-                    <img src="src/images/rooms/room-3.svg" alt="room" class="rooms__img">
+                <div class="rooms__info col-12 col-lg-6 col-md-6 wow slideInLeft" data-wow-duration="1s">
+                    <div class="rooms__img-overlay-div">
+                        <img src="src/images/rooms/room-3.svg" alt="room" class="rooms__img">
+                        <div class="rooms__overlay">
+                            <h3 class="rooms__overlay-title">Meeting Room</h3>
+                            <p class="rooms__overlay-subtitle">Lorem ipsum dolor si consectetur adipisicing elit. At, quisquam.</p>
+                        </div>
+                    </div>
                     <p class="rooms__room-name">Meeting Room</p>
                 </div>
-                <div class="rooms__info col-12 col-lg-6 col-md-6">
-                    <img src="src/images/rooms/room-4.svg" alt="room" class="rooms__img">
+                <div class="rooms__info col-12 col-lg-6 col-md-6 wow slideInRight" data-wow-duration="1s">
+                    <div class="rooms__img-overlay-div">
+                        <img src="src/images/rooms/room-4.svg" alt="room" class="rooms__img">
+                        <div class="rooms__overlay">
+                            <h3 class="rooms__overlay-title">Open Meeting Room</h3>
+                            <p class="rooms__overlay-subtitle">Lorem ipsum dolor si consectetur adipisicing elit. At, quisquam.</p>
+                        </div>
+                    </div>
                     <p class="rooms__room-name">Open Meeting Room</p>
                 </div>
             </div>
@@ -119,7 +149,7 @@
         <div class="container">
             <h3 class="brands__title">The world's leading brands choose ROOM.</h3>
             <p class="brands__subtitle">Over 3,000 and counting.</p>
-            <div class="row">
+            <div class="row wow slideInLeft" data-wow-duration="1s">
                 <div class="brands__brand brands__brand-0 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-0 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-0 col-lg-2 col-md-4 col-sm-6"></div>
@@ -128,7 +158,7 @@
                 <div class="brands__brand brands__brand-0 col-lg-2 col-md-4 col-sm-6"></div>
             </div>
 
-            <div class="row">
+            <div class="row wow slideInRight" data-wow-duration="1s">
                 <div class="brands__brand brands__brand-1 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-1 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-1 col-lg-2 col-md-4 col-sm-6"></div>
@@ -137,7 +167,7 @@
                 <div class="brands__brand brands__brand-1 col-lg-2 col-md-4 col-sm-6"></div>
             </div>
 
-            <div class="row">
+            <div class="row wow slideInLeft" data-wow-duration="1s">
                 <div class="brands__brand brands__brand-2 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-2 col-lg-2 col-md-4 col-sm-6"></div>
                 <div class="brands__brand brands__brand-2 col-lg-2 col-md-4 col-sm-6"></div>
@@ -150,7 +180,7 @@
     <section class="swiper" id="swiper">
         <div class="container">
             <!-- Swiper -->
-            <div class="swiper-container mySwiper">
+            <div class="swiper-container mySwiper1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="src/images/swiper/slide-1.svg" alt="slide"></div>
                     <div class="swiper-slide"><img src="src/images/swiper/slide-2.svg" alt="slide"></div>
@@ -165,61 +195,62 @@
             </div>
         </div>
     </section>
-    <section class="adv" id="adv">
-        <h2 class="adv__title">Our simple and seamless modular products allow <br> teams to shape and then reshape their work
-            <br>environment with ease.</h2>
-        <a class="adv__subtitle" href="#">GET IN TOUCH</a>
-        <div class="row">
-            <div class="adv__adv-info col-lg-4 col-md-4 col-sm-12 col-12">
-                <img src="src/images/adv/adv-1.svg" alt="adv">
-                <div class="adv__adv-info-text">
-                     <h2 class="adv__adv-info-title">Cost-effective</h2>
-                    <p class="adv__adv-info-subtitle">At a fraction of the cost of traditional <br> construction, our pre-fab solutions create<br> additional space for focused work and
-                    <br> collaboration without constant noise, debris
-                    <br> and distraction.</p>
-                </div>
-            </div>
-            <div class="adv__adv-info col-lg-4 col-md-4 col-sm-12 col-12">
-                <img src="src/images/adv/adv-2.svg" alt="adv">
-                <div class="adv__adv-info-text">
-                    <h2 class="adv__adv-info-title">Time Saving</h2>
-                     <p class="adv__adv-info-subtitle">Thoughtful design ensures simple <br> installation in a few hours or less. And, <br>because our products are safety ensured,<br>you'll never have to spend time or money
-                    <br>chasing after permits, contractors, and <br>more.</p>
-                </div>
-            </div>
-            <div class="adv__adv-info col-lg-4 col-md-6 col-sm-12 col-12">
-                <img src="src/images/adv/adv-3.svg" alt="adv">
-                <div class="adv__adv-info-text">
-                    <h2 class="adv__adv-info-title">Flexible</h2>
-                    <p class="adv__adv-info-subtitle">Unlike traditional construction, our <br>purpose-built products were designed to
-                    <br> adapt with your workspace and can easily be <br> positioned in various places throughout your
-                    <br>office, or to an entirely new location.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<!--    <section class="adv" id="adv">-->
+<!--        <div class="container">-->
+<!--         <h2 class="adv__title">Our simple and seamless modular products allow <br> teams to shape and then reshape their work-->
+<!--                <br>environment with ease.</h2>-->
+<!--            <a class="adv__subtitle" href="#">GET IN TOUCH</a>-->
+<!--            <div class="row">-->
+<!--                <div class="adv__adv-info col-lg-4 col-md-4 col-sm-12 col-12 wow bounceInLeft" data-wow-duration="1s">-->
+<!--&lt;!&ndash;                    <img  class="adv__img" src="src/images/adv/calculator.svg" alt="adv">&ndash;&gt;-->
+<!--                    <div class="adv__adv-info-text">-->
+<!--                         <h2 class="adv__adv-info-title">Cost-effective</h2>-->
+<!--                        <p class="adv__adv-info-subtitle">At a fraction of the cost of traditional <br> construction, our pre-fab solutions create<br> additional space for focused work and-->
+<!--                        <br> collaboration without constant noise, debris-->
+<!--                        <br> and distraction.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="adv__adv-info col-lg-4 col-md-4 col-sm-12 col-12 wow bounceInUp" data-wow-duration="1s">-->
+<!--&lt;!&ndash;                    <img  class="adv__img" src="src/images/adv/clock.svg" alt="adv">&ndash;&gt;-->
+<!--                    <div class="adv__adv-info-text">-->
+<!--                        <h2 class="adv__adv-info-title">Time Saving</h2>-->
+<!--                         <p class="adv__adv-info-subtitle">Thoughtful design ensures simple <br> installation in a few hours or less. And, <br>because our products are safety ensured,<br>you'll never have to spend time or money-->
+<!--                        <br>chasing after permits, contractors, and <br>more.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="adv__adv-info col-lg-4 col-md-6 col-sm-12 col-12 wow bounceInRight" data-wow-duration="1s">-->
+<!--&lt;!&ndash;                    <img class="adv__img" src="src/images/adv/turn.svg" alt="adv">&ndash;&gt;-->
+<!--                    <div class="adv__adv-info-text">-->
+<!--                        <h2 class="adv__adv-info-title">Flexible</h2>-->
+<!--                        <p class="adv__adv-info-subtitle">Unlike traditional construction, our <br>purpose-built products were designed to-->
+<!--                        <br> adapt with your workspace and can easily be <br> positioned in various places throughout your-->
+<!--                        <br>office, or to an entirely new location.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
     <section class="stars" id="stars">
         <div class="container">
             <div class="stars__main">
                 <div class="stars__info">
                     <div class="stars__company">
-                        <div class="stars__stars"></div>
-                        <p class="stars__text">“We can now have <br> meetings in peace.”</p>
+                        <div class="stars__stars wow slideInLeft" data-wow-duration="1s"></div>
+                        <p class="stars__text wow zoomIn" data-wow-duration="1s">“We can now have <br> meetings in peace.”</p>
                         <img src="src/images/stars/google.svg" alt="logo">
                     </div>
                 </div>
                 <div class="stars__info">
                     <div class="stars__company">
-                        <div class="stars__stars"></div>
-                        <p class="stars__text">“Amazing private space <br> to get work done.”</p>
+                        <div class="stars__stars wow slideInLeft" data-wow-duration="1s"></div>
+                        <p class="stars__text wow zoomIn" data-wow-duration="1s">“Amazing private space <br> to get work done.”</p>
                         <img src="src/images/stars/wayfair.svg" alt="logo">
                     </div>
                 </div>
                 <div class="stars__info">
                     <div class="stars__company">
-                        <div class="stars__stars"></div>
-                        <p class="stars__text">“Our booths are in <br> constant use.”</p>
+                        <div class="stars__stars wow slideInLeft" data-wow-duration="1s"></div>
+                        <p class="stars__text wow zoomIn" data-wow-duration="1s">“Our booths are in <br> constant use.”</p>
                         <img src="src/images/stars/flexport.svg" alt="logo">
                     </div>
                 </div>
@@ -228,14 +259,217 @@
             </div>
         </div>
     </section>
+    <section class="work" id="work">
+        <div class="container">
+            <div class="work__text-info col-lg-12 col-md-12">
+                <h3 class="work__title-1">We take a human approach to  a <br> business-to-business industry, breaking the <br> boundaries between corporate and
+                    <br> personal, and rethinking every step of the <br> user experience along the way.</h3>
+                <h3 class="work__title-2">We make work, work for you.</h3>
+            </div>
+            <div class="row work__row">
+                <div class="col-lg-7 col-md-7 col-sm-6 col-12">
+                    <div class="work__col-photo  wow fadeInUp" data-wow-duration="2s">
+                        <img class="work__col-photo-1" src="src/images/work/work-1.svg" alt="work1">
+                    </div>
+                </div>
+                <div class=" work__work-done col-lg-5 col-md-5 col-sm-6 col-12 wow fadeInDown"  data-wow-duration="1s">
+                    <h3 class="work__col-title">We sell direct.</h3>
+                    <p class="work__col-subtitle">We make extra room in the budget without <br>compromising quality by selling direct. No
+                        <br> middle man, and no additional construction <br> required.</p>
+                </div>
+            </div>
+            <div class="row work__row">
+                <div class=" work__work-done col-lg-5 col-md-5 col-sm-6 col-12 wow fadeInDown"  data-wow-duration="1s">
+                    <h3 class="work__col-title">We build with <br> purpose.</h3>
+                    <p class="work__col-subtitle">We’re not just building another room with <br> four walls, we’re building a more
+                        <br>productive workspace. We design with <br>you in mind, looking at every detail as an <br> opportunity to enable a better working
+                        <br>environment for everyone.</p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-6 col-12">
+                    <div class="work__col-photo  wow fadeInUp" data-wow-duration="2s">
+                        <img class="work__col-photo-1" src="src/images/work/work-2.svg" alt="work1">
+                    </div>
+                </div>
+            </div>
+            <div class="row work__row">
+                <div class="col-lg-7 col-md-7 col-sm-6 col-12">
+                    <div class="work__col-photo  wow fadeInUp" data-wow-duration="2s">
+                        <img class="work__col-photo-1" src="src/images/work/work-3.svg" alt="work1">
+                    </div>
+                </div>
+                <div class="work__work-done col-lg-5 col-md-5 col-sm-6 col-12 wow fadeInDown"  data-wow-duration="1s">
+                    <h3 class="work__col-title">We design <br> sustainably.</h3>
+                    <p class="work__col-subtitle">From design to delivery, we strive to lessen <br>our impact on the environment. Our<br> products are engineered with recycled
+                        <br> materials and replace multiple cycles of <br> construction, minimizing noise and our <br>footprint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="swiper2">
+        <div class="container">
+            <!-- Swiper -->
+            <div class="swiper-container mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="swiper2__img" src="src/images/swiper2/slide1.svg" alt="slide"></div>
+                    <div class="swiper-slide"><img src="src/images/swiper2/slide1.svg" alt="slide"></div>
+                    <div class="swiper-slide"><img src="src/images/swiper2/slide1.svg" alt="slide"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="get-room">
+        <div class="container">
+            <div class="get-room__bg">
+                <h3 class="get-room__title">100 day risk-free trial</h3>
+                <div class="row get-room__row">
+                    <div class="get-room__plus-div col-lg-4 col-6">
+                            <img src="src/images/get-room/icon-1.svg" alt="icon">
+                            <p class="get-room__text">FREE SHIPPING</p>
+                        </div>
+                    <div class="get-room__plus-div col-lg-4 col-6">
+                            <img src="src/images/get-room/icon-2.svg" alt="icon">
+                            <p class="get-room__text">PLUG & PLAY</p>
+                        </div>
+                    <div class="get-room__plus-div col-lg-4 col-6">
+                            <img src="src/images/get-room/icon-3.svg" alt="icon">
+                            <p class="get-room__text">FREE RETURNS</p>
+                        </div>
+
+                </div>
+                <button class="get-room__btn">GET A ROOM</button>
+                <p class="get-room__extra">Terms & Conditions apply</p>
+            </div>
+        </div>
+    </section>
 </main>
-<footer></footer>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 footer__logo-div">
+                <div class="footer__logo">
+                    <img class="footer__logo-img" src="src/images/footer/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-6 footer__about-div">
+                <p class="footer__col-2-text">About</p>
+                <p class="footer__col-2-text">Compare</p>
+                <p class="footer__col-2-text">Reviews</p>
+                <p class="footer__col-2-text">Risk-Free Trial</p>
+                <p class="footer__col-2-text">Careers</p>
+                <p class="footer__col-2-text">Press</p>
+                <p class="footer__col-2-text">Podcast</p>
+                <p class="footer__col-2-text">Blog</p>
+                <p class="footer__col-2-text">Showrooms</p>
+                <p class="footer__col-2-text">New York</p>
+                <p class="footer__col-2-text">London</p>
+                <p class="footer__col-2-text">San Francisco</p>
+                <p class="footer__col-2-text">Paris</p>
+                <p class="footer__col-2-text">Copenhagen</p>
+                <p class="footer__col-2-text">Zürich</p>
+                <p class="footer__col-2-text">Los Angeles</p>
+                <p class="footer__col-2-text">Berlin</p>
+                <p class="footer__col-2-text">Belgium</p>
+                <p class="footer__col-2-text">Virtual Demo</p>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-6">
+                <p class="footer__col-3-text">Support</p>
+                <p class="footer__col-3-text">FAQ</p>
+                <p class="footer__col-3-text">Booth Assembly</p>
+                <p class="footer__col-3-text">Delivery</p>
+                <p class="footer__col-3-text">Room Service</p>
+                <p class="footer__col-3-text">Warranty</p>
+                <p class="footer__col-3-text">Terms of Use</p>
+                <p class="footer__col-3-text">Privacy Policy</p>
+                <p class="footer__col-3-text">Copyright</p>
+                <p class="footer__col-3-text">Office</p>
+                <p class="footer__col-3-text">599 Broadway, FL 9 <br>New York, NY 10012</p>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
+                <p class="footer__col-4-text">Follow us</p>
+                <div class="row media-row">
+                    <div class="footer__media"></div>
+                    <div class="footer__media"></div>
+                    <div class="footer__media"></div>
+                    <div class="footer__media"></div>
+                </div>
+            </div>
+            <div class="col-xl-4 footer__form">
+                <p class="footer__col-5-text">Join our mailing list</p>
+                <p class="footer__col-5-text">Be the first to hear everything about ROOM.</p>
+                <form action="">
+                    <label class="footer__label">
+                        <input class="footer__input" type="email" pattern="[^@\s]+@[^@\s]+" title="Invalid email address" required >
+                    </label>
+                    <label for="countries" class="footer__label">
+                        <select id="countries" name="countries" class="footer__select">
+                            <option value="US">United States</option>
+                            <option value="Russia">Russia</option>
+                            <option value="England">England</option>
+                            <option value="India">India</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label class="footer__label-checkbox">
+                        <input type="checkbox" id="agree"  class="footer__checkbox">
+                        <span class="footer__span"></span>
+                        <span class="footer__label-text-span">Yes. I would like to receive marketing <br></span>
+                        <span class="footer__label-text-span">    communications from ROOM about product <br></span>
+                        <span class="footer__label-text-span"> updates and special offers. Please refer to <br></span>
+                        <span class="footer__label-text-span"> ROOM’s Privacy Policy for more information <br></span>
+                        <span class="footer__label-text-span"> about how we process your data (including </span>
+                        <span class="footer__label-text-span">how to unsubscribe).</span>
+                     </label>
+                    <br>
+
+                    <button class="footer__btn">Sign up</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<div class="overlay">
+    <div class="popup">
+        <div class="popup__consultation">
+            <h3 class="popup__consultation-title">Please enter your email</h3>
+            <p class="popup__consultation-subtitle">We wiil send you a mesage in 10 minutes</p>
+            <form class="form">
+                <label class="form__label">
+                    <input type="email" class="form__input" placeholder="Your email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Введите email в формате mysite@mail.ru">
+                </label>
+                <br>
+                <button class="form__button form__button-order ">Send</button>
+            </form>
+        </div>
+        <div class="popup__close"></div>
+        <div class="popup__thanks">
+            <h2 class="popup__thanks-title">Thank you!</h2>
+            <p class="popup__thanks-subtitle">You will get our email soon!</p>
+        </div>
+
+    </div>
+</div>
+
+<a href="#header" class="go-top >">return to the top</a>
 
 <!--<script src="src/libs/bootstrap/bootstrap.min.js"></script>-->
 <script src="src/libs/jquery/jquery-3.6.0.min.js"></script>
 <!-- Swiper JS -->
 <script src="src/libs/swiper/swiper-bundle.min.js"></script>
 <script src="src/js/main.js"></script>
+<script src="src/libs/wowjs/wow.js"></script>
+<script src="src/libs/owl-carousel/owl.carousel.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
 
 </body>
 </html>
